@@ -34,7 +34,7 @@ const Projects = () => {
           </div>
           <div className={classes.projectCard}>
             <a
-              href="https://mhdkanbantaskmanager.netlify.app/"
+              href="https://mhkanbantaskmanager.netlify.app/"
               target="_blank"
               rel="noreferrer"
             >
