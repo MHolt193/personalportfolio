@@ -17,6 +17,7 @@ const Contact = () => {
           data-netlify="true"
           netlify
         >
+            <input type="hidden" name="form-name" value="contact" />
           <input type="text" placeholder="Name" name="name" required />
           <input type="email" placeholder="Email" name="email" required />
           <textarea placeholder="Message me!" name="message" required />
