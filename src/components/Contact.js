@@ -15,6 +15,7 @@ const Contact = () => {
           name="contact"
           method="POST"
           data-netlify="true"
+          netlify
         >
           <input type="text" placeholder="Name" name="name" required />
           <input type="email" placeholder="Email" name="email" required />
