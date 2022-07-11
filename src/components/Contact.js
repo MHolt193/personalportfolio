@@ -12,6 +12,7 @@ const Contact = () => {
         </div>
         <form
           className={classes.formContainer}
+          name="contact"
           method="POST"
           data-netlify="true"
         >
