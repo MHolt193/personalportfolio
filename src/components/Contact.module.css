@@ -1,0 +1,98 @@
+@font-face {
+  font-family: "BritanySignature";
+  src: url("../fonts/BrittanySignature.ttf");
+}
+.container {
+  background-color: #575b78;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 100vw;
+}
+.titleContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.titleContainer h1 {
+  font-size: 119px;
+  font-family: "BritanySignature", sans-serif;
+  color: #b91646;
+  margin-bottom: -140px;
+  z-index: 2;
+}
+.titleContainer h2 {
+  font-size: 186px;
+  font-family: "Bebas Neue", sans-serif;
+  color: #c5c6cc;
+  margin: 0;
+}
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  width: 60vw;
+}
+.formContainer input {
+  width: 60%;
+  height: 35px;
+  border-radius: 10px;
+  background-color: transparent;
+  box-shadow: inset black 1px 1px 10px;
+  color: #c5c6cc;
+  font-family: "poppins", sans-serif;
+  font-weight: bold;
+  padding-left: 10px;
+  border: 2px solid #c5cdff;
+}
+
+.formContainer textarea {
+  width: 60%;
+  height: 200px;
+  border-radius: 10px;
+  background-color: transparent;
+  box-shadow: inset black 1px 1px 10px;
+  color: #c5c6cc;
+  font-family: "poppins", sans-serif;
+  font-weight: bold;
+  padding-left: 10px;
+  border: 2px solid #c5cdff;
+  resize: none;
+}
+.formContainer button {
+  width: 60%;
+  height: 45px;
+  background-color: transparent;
+  border: 2px solid #c5cdff;
+  font-family:  "Bebas Neue", sans-serif;
+  font-size: 25px;
+  color: #c5c6cc;
+  border-radius: 10px;
+}
+.formContainer button:hover {
+    box-shadow: 5px 5px 10px black;
+    transform: scale(1.05);
+}
+@media screen and (max-width: 580px){
+  .titleContainer h1{
+      font-size: 20vw;
+      margin-top: 0px;
+      margin-bottom: -25%;
+  }
+  .titleContainer h2{
+    font-size: 25vw;
+    margin-top: 10%;
+  }
+  .formContainer{
+    width: 100%;
+  }
+}
