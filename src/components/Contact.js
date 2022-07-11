@@ -9,10 +9,10 @@ const Contact = () =>{
             <h1>let's work</h1>
             <h2>Together</h2>
             </div>
-            <form className={classes.formContainer} method="POST" netlify>
+            <form className={classes.formContainer} method="POST" data-netlify="true">
                 <input type="text" placeholder="Name" name="name" required />
                 <input type="email" placeholder="Email" name="email" required />
-                <textarea placeholder="Message me!" required/>
+                <textarea placeholder="Message me!" name="message"required/>
                 <button type="submit">Submit</button>
             </form>
             </div>
