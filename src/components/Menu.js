@@ -9,10 +9,10 @@ const Menu = (props) =>{
         <div className={classes.container}>
             <button className={classes.btn} onClick={menuHandler}>Close</button>
             <ul className={classes.list}>
-                <li onClick={linkHandler}>HOME</li>
-                <li onClick={linkHandler}>ABOUT ME</li>
-                <li onClick={linkHandler}>PROJECTS</li>
-                <li onClick={linkHandler}>CONTACT</li>
+                <li onClick={linkHandler}><button type="button" name="menu option: Home">HOME</button></li>
+                <li onClick={linkHandler}><button  type="button" name="menu option: about me">ABOUT ME</button></li>
+                <li onClick={linkHandler}><button  type="button" name=" menu option: projects">PROJECTS</button></li>
+                <li onClick={linkHandler}><button type="button" name="menu option: contact">CONTACT</button></li>
             </ul>
         </div>
     )

@@ -34,10 +34,14 @@
 }
 .list li{
     list-style: none;
+}
+.list li button{
+    border: none;
     font-family: 'Bebas Neue', sans-serif;
+    background: none;
     font-size: 25px;
 }
-.list li:hover{
+.list li button:hover{
     text-decoration: underline;
     cursor: pointer;
 }

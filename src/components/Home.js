@@ -32,7 +32,7 @@ const Home = () => {
   return (
     <div className={classes.container}>
       {menuUp === false ? (
-        <button className={classes.menuButton} onClick={menuHandler}>
+        <button className={classes.menuButton} name="Menu Button" onClick={menuHandler}>
           <BsThreeDots />
         </button>
       ) : (
@@ -41,7 +41,7 @@ const Home = () => {
       {activePage === "HOME" ? (
         <div className={classes.contentContainer}>
           <h1>Michael Holt</h1>
-          <button onMouseEnter={homeButtonMouseEnter} onMouseLeave={homeButtonMouseLeave} onClick={homeButtonClick}>WEB DEVELOPER</button>
+          <button onMouseEnter={homeButtonMouseEnter} onMouseLeave={homeButtonMouseLeave} onClick={homeButtonClick} name="view projects button">WEB DEVELOPER</button>
         </div>
       ) : activePage === "ABOUT ME" ? (
         <About menuHandler={menuHandler} linkHandler={linkHandler} />

@@ -21,7 +21,7 @@ const Contact = () => {
           <input type="text" placeholder="Name" name="name" required />
           <input type="email" placeholder="Email" name="email" required />
           <textarea placeholder="Message me!" name="message" required />
-          <button type="submit">Submit</button>
+          <button type="submit" name="submit button">Submit</button>
         </form>
         <div className={classes.icons}>
           <a href="https://www.linkedin.com/in/michael-holt-14b093213/">
