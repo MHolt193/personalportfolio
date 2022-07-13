@@ -32,7 +32,7 @@ const Home = () => {
   return (
     <div className={classes.container}>
       {menuUp === false ? (
-        <button className={classes.menuButton} name="Menu Button" onClick={menuHandler}>
+        <button className={classes.menuButton} aria-label="Menu Button" onClick={menuHandler}>
           <BsThreeDots />
         </button>
       ) : (
